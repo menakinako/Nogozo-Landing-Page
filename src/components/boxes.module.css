@@ -1,0 +1,25 @@
+.box{
+    margin: 30px;
+    margin-top: 50px;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    overflow: hidden;
+    height: 300px;
+    min-height: 35vh;
+    width:360px;
+    box-shadow: 0 3px 0 0 rgb(65 62 102 / 8%);
+    border-radius: 10px;
+}
+.navbar{
+    background: transparent;
+}
+
+.navbar.active{
+    background: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+      width:240px;
+      margin: 30px;
+    }
+  }
